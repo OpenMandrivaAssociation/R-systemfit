@@ -9,10 +9,9 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.1-10.tar.gz
-Requires:         R-Matrix R-car R-lmtest 
-Requires:         R-plm R-MASS R-sem 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-Matrix R-car R-lmtest
-BuildRequires:    R-plm R-MASS R-sem 
+Requires:         R-Matrix R-car R-lmtest R-plm R-MASS R-sem
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-Matrix R-car R-lmtest R-plm R-MASS R-sem
 
 %description
 This package contains functions for fitting simultaneous systems of linear
