@@ -1,14 +1,16 @@
 %global packname  systemfit
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
-Version:          1.1_10
+Version:          1.1.14
 Release:          1
 Summary:          Estimating Systems of Simultaneous Equations
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.1-10.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/systemfit_1.1-14.tar.gz
 Requires:         R-Matrix R-car R-lmtest R-plm R-MASS R-sem
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
 BuildRequires:    R-Matrix R-car R-lmtest R-plm R-MASS R-sem
