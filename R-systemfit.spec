@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          1.1.14
-Release:          1
+Release:          2
 Summary:          Estimating Systems of Simultaneous Equations
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
