@@ -9,7 +9,7 @@ Release:          2
 Summary:          Estimating Systems of Simultaneous Equations
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/systemfit_1.1-14.tar.gz
 Requires:         R-Matrix R-car R-lmtest R-plm R-MASS R-sem
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
